@@ -1,7 +1,4 @@
-category,teamA,teamB,teamC
-Speed,85,92,78
-Strength,90,75,88
-Agility,75,85,82
-Endurance,88,80,90
-Intelligence,82,88,85
-Teamwork,95,78,92
+category,Beanie,Black headband,White headband,Nothing
+Comfort (summer),20,80,90,100
+Wind resistance,95,70,30,0
+Looks good (summer),20,30,40,100
