@@ -1,0 +1,43 @@
+.charts-index {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.charts-index h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: block;
+}
+
+.chart-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.chart-card h2 {
+  margin: 0 0 1rem 0;
+  color: #007bff;
+}
+
+.chart-card p {
+  margin: 0;
+  color: #666;
+}
